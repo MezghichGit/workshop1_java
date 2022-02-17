@@ -15,7 +15,7 @@ public class Test {
 		Etudiant e2 = new Etudiant("Fayçal",21,16.5,"Cité el Khadra");
 		e2.info();
 		 */
-		
+		/*
 		Scanner s = new Scanner(System.in);  // on crée un objet scanner
 		
 		//1-Lecture du nom
@@ -37,8 +37,16 @@ public class Test {
 		String adrs = s.nextLine();
 		
 		Etudiant e = new Etudiant(nom,age,moy,adrs);
-		e.info();
+		e.info();*/
 		
+		Etudiant e = new Etudiant();
+		e.info();
+		//e.nom = "Mohamed";
+		//e.age = -3005;
+		//e.setAge(20);
+		e.setMoyenne(15.6);
+		e.setNom("Mohamed Amine Mezghich");
+		e.info();
 	}
 
 }
